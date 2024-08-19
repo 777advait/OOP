@@ -2,25 +2,23 @@
 using namespace std;
 
 class Rectangle {
-    private:
-        float length, breadth;
+private:
+  float length, breadth;
 
-    public:
-        inline void read(float l, float b) {
-            length = l;
-            breadth = b;
-        }
+public:
+  inline void read(float l, float b) {
+    length = l;
+    breadth = b;
+  }
 
-        inline void write() {
-            cout << "Area: " << length * breadth;
-        }
+  inline void write() { cout << "Area: " << length * breadth; }
 };
 
 int main() {
-    Rectangle r;
+  Rectangle r;
 
-    r.read(32, 31);
-    r.write();
+  r.read(32, 31);
+  r.write();
 
-    return 0;
+  return 0;
 }
