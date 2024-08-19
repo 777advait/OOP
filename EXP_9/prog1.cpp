@@ -14,8 +14,8 @@ public:
 
   void display() {
     if (balance > 10000) {
-      cout << "Account number: " << acc_no;
-      cout << "Balance: " << balance;
+      cout << "Account number: " << acc_no << endl;
+      cout << "Balance: " << balance << endl;
     }
   }
 };
