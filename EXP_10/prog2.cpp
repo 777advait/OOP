@@ -2,27 +2,34 @@
 #include <string>
 using namespace std;
 
-class Student {
+class Student
+{
 private:
   int roll_no;
   string name, course;
 
 public:
-  Student() : course("Computer Engineering") {}
+  Student()
+  {
+    course = "Computer Science";
+  }
 
-  void read(int r, string n) {
+  void read(int r, string n)
+  {
     roll_no = r;
     name = n;
   }
 
-  void display() {
+  void display()
+  {
     cout << "Roll no: " << roll_no << endl;
     cout << "Name: " << name << endl;
     cout << "Course: " << course << endl;
   }
 };
 
-int main() {
+int main()
+{
   Student s;
 
   s.read(25, "Advait");
