@@ -1,27 +1,23 @@
 #include <iostream>
 using namespace std;
 
-class Numbers
-{
+class Numbers {
 private:
   int num1, num2;
 
 public:
-  Numbers(int n1 = 10, int n2 = 20)
-  {
-    num1 = n1;
-    num2 = n2;
+  Numbers() {
+    num1 = 10;
+    num2 = 20;
   }
 
-  void display()
-  {
+  void display() {
     cout << "Num1: " << num1 << endl;
     cout << "Num2: " << num2 << endl;
   }
 };
 
-int main()
-{
+int main() {
   Numbers n;
 
   n.display();
