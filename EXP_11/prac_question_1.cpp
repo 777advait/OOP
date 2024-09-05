@@ -34,7 +34,9 @@ class Marks: protected Student {
             total = m1 + m2 + m3;
             percentage = total /3;
 
-            cout << "Percentage" << percentage;
+            cout << "Roll no.: " << roll_no << endl;
+            cout << "Name: " << name << endl;
+            cout << "Percentage: " << percentage << endl;
         }
 };
 
