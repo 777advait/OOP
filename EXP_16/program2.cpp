@@ -4,10 +4,9 @@
 using namespace std;
 
 class BOX{
- private:
+ private:  
      int height, width, breadth, area, volume;
-     
- 
+
   public:
       void getdata(){
           cout<<"Enter Box height , width , breadth"<<endl;
